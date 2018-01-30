@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  position: absolute;
+  background-color: #222;
+  height: 150vh;
+  width: 100vw;
+  padding: 20px;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.App-title {
+  font-size: 5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: firebrick;
+}
+
+.container-2 {
+  height: 100vh;
+  width: 100vw;
+  background-color: azure;
+}
+
+/* ——— button ——— */
+#roundButton {
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  margin: 100px 100px 100px 100px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 10px solid #0065A6;
+  background-color: #96D9FF;
+  outline: none;
+  transition: all .2s cubic-bezier(0, 1.26, .8, 1.28);
+}
+ 
+#roundButton:hover {
+  background-color: #96D9FF;
+  cursor: pointer;
+  border-color: #003557;
+  transform: scale(1.2, 1.2);
+  transition-timing-function: ease-in;
+}
+ 
+#roundButton:active {
+  border-color: #003557;
+  background-color: #FFF;
+}
+
+/* ——— List Items ——— */
+li {
+  color: yellow;
+  font-size: 5em;
+  list-style-type: none;
+}
